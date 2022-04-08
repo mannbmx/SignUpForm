@@ -1,0 +1,15 @@
+body{
+    display:flex;
+}
+#left {
+    object-fit: cover;
+    width: 35vw;
+    height: 100vh;
+    background: url(LargeDonut.jpg);
+    background-size: 35vw 100vh;
+}
+
+.logo{
+    max-height: 100px;
+    max-width: auto;
+}
