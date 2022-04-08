@@ -1,15 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 body{
     display:flex;
+    margin:0;
+    font-family: 'Overpass', sans-serif;
 }
 #left {
-    object-fit: cover;
-    width: 35vw;
+    width: 40vw;
     height: 100vh;
-    background: url(LargeDonut.jpg);
-    background-size: 35vw 100vh;
+    background: url(SmallDonut.jpg);
+    background-size: 1920px auto;
+    background-position: 46% center ;
+}
+
+.logoCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .logo{
     max-height: 100px;
     max-width: auto;
 }
+
+#right {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+   
+   
+}
+
+
+#formCont{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.644);
+    gap: 50px;
+    font-size: 15px;
+    padding: 60px;
+    padding-top: 30px;
+}
+
+#rightForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#leftForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infoCont{
+    padding-top: 100px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    padding-left: 60px;
+
+}
+
+.buttonCont{
+    padding-left: 60px;
+    padding-top: 20px;
+
+}
+
+label{
+    padding-top: 30px;
+}
+
+input{
+    height: 20px;
+}
+

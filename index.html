@@ -9,35 +9,41 @@
 </head>
 <body>
     <div id="left">
-        <div id="logo">
-            <img class='logo' src="04.png" alt="Donut Logo">
+        <div class="logoCont">
+            <img class='logo' src="donutlogo2.png" alt="Donut Logo">
             <h1 id="name">SIMPLY DONUTS</h1>
         </div>
     </div>
     <div id="right">
-        <div>
-            <h3>This is just filler text for the time being before I put what's supposed to actually be insed of here.</h3>
+        <div class="infoCont">
+            <h3>Simply Donuts is your one stop shop for all things donut related. Sign up to hear about our latest specialty donuts, deals, and events. <br>We can't wait to share a bite with you!</h3>
         </div>
         <div id="formCont">
-            <form id="leftForm" action="post">
-                <label for="firstName">First Name</label>
-                <input id="firstName" type="text">
-                <label for="email">Email</label>
-                <input id="email" type="email">
-                <label for="password">Password</label>
-                <input id='password'type="password">
-            </form>
-            <form id="rightForm" action="post">
-                <label for="lastName">Last Name</label>
-                <input id="lastName" type="text">
-                <label for="phone">Phone Number</label>
-                <input id="phone" type="tel">
-                <label for="confirmPass">Confirm Password</label>
-                <input type="password">
-            </form>
+            <div class="leftTest">
+                <form id="leftForm" action="post">
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" type="text">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                    <label for="password">Password</label>
+                    <input id='password'type="password">
+                </form>
+            </div>
+            <div class="rightTest">  
+                <form id="rightForm" action="post">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" type="text">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="tel">
+                    <label for="confirmPass">Confirm Password</label>
+                    <input type="password">
+                </form>
+            </div>      
         </div>
-        <button id="signUp">Sign Up</button>
-        <p>Already have an account? <a href="https://www.usabmx.com">Login</a></p>    
+        <div class="buttonCont">
+            <button id="signUp">Sign Up</button>
+            <p>Already have an account? <a href="https://www.usabmx.com">Login</a></p>    
+        </div>
     </div>
 </body>
 </html>
