@@ -36,8 +36,7 @@ body{
    
 }
 
-
-#formCont{
+#signUp{
     display: flex;
     background-color: rgba(255, 255, 255, 0.644);
     gap: 50px;
@@ -72,11 +71,29 @@ body{
 
 }
 
+button{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(247, 206, 213);
+}
+
 label{
     padding-top: 30px;
 }
 
 input{
     height: 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(247, 206, 213);
 }
 
+a{
+    color: rgb(233, 193, 199);
+    text-decoration: none;
+}
+
+fieldset{
+    border: none;
+}

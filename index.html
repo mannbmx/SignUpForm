@@ -19,29 +19,31 @@
             <h3>Simply Donuts is your one stop shop for all things donut related. Sign up to hear about our latest specialty donuts, deals, and events. <br>We can't wait to share a bite with you!</h3>
         </div>
         <div id="formCont">
+        <form action="post" id="signUp">
             <div class="leftTest">
-                <form id="leftForm" action="post">
-                    <label for="firstName">First Name</label>
-                    <input id="firstName" type="text">
-                    <label for="email">Email</label>
-                    <input id="email" type="email">
-                    <label for="password">Password</label>
-                    <input id='password'type="password">
-                </form>
+                <fieldset id="leftForm" action="post">
+                    <label for="firstName">First Name<span>*</span></label>
+                    <input id="firstName" type="text" required name="firstName">
+                    <label for="email">Email<span>*</span></label>
+                    <input id="email" type="email" required name="email"> 
+                    <label for="password">Password<span>*</span></label>
+                    <input id='password'type="password" required name="password">
+                </fieldset>
             </div>
             <div class="rightTest">  
-                <form id="rightForm" action="post">
-                    <label for="lastName">Last Name</label>
-                    <input id="lastName" type="text">
+                <fieldset id="rightForm" action="post">
+                    <label for="lastName">Last Name<span>*</span></label>
+                    <input id="lastName" type="text" required name="lastName">
                     <label for="phone">Phone Number</label>
                     <input id="phone" type="tel">
-                    <label for="confirmPass">Confirm Password</label>
-                    <input type="password">
-                </form>
-            </div>      
+                    <label for="confirmPass">Confirm Password<span>*</span></label>
+                    <input type="password" required name="confirmPassword">
+                </fieldset>
+            </div>    
+        </form>
         </div>
         <div class="buttonCont">
-            <button id="signUp">Sign Up</button>
+            <button type="submit" form="signUp">Sign Up</button>
             <p>Already have an account? <a href="https://www.usabmx.com">Login</a></p>    
         </div>
     </div>
