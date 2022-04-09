@@ -140,9 +140,11 @@ button:active{
     }
 
     #signUp{
+        display: flex;
         padding: 0;
         gap: 1px;
         box-shadow:none;
+        justify-content: center;
     }
 
     .buttonCont{
@@ -154,6 +156,7 @@ button:active{
     .infoCont{
         padding: 5px;
         font-size: 18px;
+        
     }
 }
     
